@@ -81,12 +81,13 @@ a {
     padding: 8px 30px;
     margin: 30px 0;
     border-radius: 30px;
-    transition: background 0.5s;
+    transition: all 0.5s;
 }
 
 .btn:hover {
     background: #43d8c9;
     color: #100303;
+    transform: translateY(-5px);
 }
 
 .header {
@@ -105,10 +106,15 @@ a {
     flex-basis: 30%;
     min-width: 250px;
     margin-bottom: 30px;
+    transition: transform 0.5s;
 }
 
 .col-3 img {
     width: 100%;
+}
+
+.col-3:hover {
+    transform: translateY(-5px);
 }
 
 .small-container {
@@ -116,4 +122,54 @@ a {
     margin: auto;
     padding-left: 25px;
     padding-right: 25 px;
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.col-4 p {
+    font-size: 14 px;
+}
+
+.col-4:hover{
+    transform: translateY(-5px);
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #100303;
+}
+
+.title::after {
+    content: '';
+    background: #95389e;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    color: #100303;
+    font-weight: normal;
+}
+
+.rating .fas,
+.rating .far {
+    color: #95389e;
 }
