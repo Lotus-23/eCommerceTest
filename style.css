@@ -155,7 +155,7 @@ a {
 .title::after {
     content: '';
     background: #95389e;
-    width: 80px;
+    width: 180px;
     height: 5px;
     border-radius: 5px;
     position: absolute;
