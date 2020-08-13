@@ -74,6 +74,18 @@ a {
     color: #100303;
 }
 
+.col-2 span {
+    color: #95389e;
+}
+
+.col-2 .offer-img {
+    padding: 50px;
+}
+
+.col-2 p {
+    color: #100303
+}
+
 .btn {
     display: inline-block;
     background: #95389e;
@@ -172,4 +184,14 @@ h4 {
 .rating .fas,
 .rating .far {
     color: #95389e;
+}
+
+.offer {
+    background: radial-gradient(#f7f7f7, #96389e70);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+small {
+    color: #100303;
 }
