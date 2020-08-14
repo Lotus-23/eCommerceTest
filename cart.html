@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - MalvaStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3c8cf51b81.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="navbar">
+
+            <div class="logo">
+                <a href="index.html"><h2><span>Malva</span>Store <span>&#8516</span></h2></a>
+            </div>
+
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="products.html">Productos</a></li>
+                    <li><a href="">Sobre nosotros</a></li>
+                    <li><a href="">Contacto</a></li>
+                    <li><a href="">Log in</a></li>
+                </ul>
+            </nav>
+
+            <img src="img/cart.png" width="30px" height="30px">
+            <img src="img/menu.png" class="menu-icon" onclick="menuToggle()">
+
+        </div>
+    </div>
+
+    <!-- Detalle items del carrito -->
+    <div class="small-container cart-page">
+
+        <table>
+
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/buy-1.jpg" alt="">
+                        <div>
+                            <p>Polera Estampada Roja</p>
+                            <small>$10.000</small>
+                            <br>
+                            <a href="">Quitar</a>
+                        </div>
+                        
+                    </div>
+                </td>
+                <td>
+                    <input type="number" value="1">
+                </td>
+                <td>
+                    $10.000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/buy-3.jpg" alt="">
+                        <div>
+                            <p>Buzo Style Gris</p>
+                            <small>$15.000</small>
+                            <br>
+                            <a href="">Quitar</a>
+                        </div>
+                        
+                    </div>
+                </td>
+                <td>
+                    <input type="number" value="1">
+                </td>
+                <td>
+                    $15.000
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="img/buy-2.jpg" alt="">
+                        <div>
+                            <p>Zapatillas Sport Negras/Blanco</p>
+                            <small>$20.000</small>
+                            <br>
+                            <a href="">Quitar</a>
+                        </div>
+                        
+                    </div>
+                </td>
+                <td>
+                    <input type="number" value="1">
+                </td>
+                <td>
+                    $20.000
+                </td>
+            </tr>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$45.000</td>
+                </tr>
+                <tr>
+                    <td>Envío</td>
+                    <td>$5.000</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$50.000</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="footer-col-1">
+                    <h3>Descarga nuesta Aplicación</h3>
+                    <p>Soporte para <span>iOS</span> y <span>Android</span></p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png">
+                        <img src="img/app-store.png">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <h2><span>Malva</span>Store <span>&#8516</span></h2>
+                    <p>Trabajamos día a día para que el placer y beneficios del deporte estén disponibles para todos</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Links de utilidad</h3>
+                    <ul>
+                        <li>Cupones</li>
+                        <li>Blog</li>
+                        <li>Politica de devolución</li>
+                        <li>Trabaja con nosotros</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Suíguenos</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020. Lotus-23</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
