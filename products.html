@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - MalvaStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3c8cf51b81.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="navbar">
+
+            <div class="logo">
+                <h2><span>Malva</span>Store <span>&#8516</span></h2>
+            </div>
+
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Productos</a></li>
+                    <li><a href="">Sobre nosotros</a></li>
+                    <li><a href="">Contacto</a></li>
+                    <li><a href="">Perfil</a></li>
+                </ul>
+            </nav>
+
+            <img src="img/cart.png" width="30px" height="30px">
+            <img src="img/menu.png" class="menu-icon" onclick="menuToggle()">
+
+        </div>
+    
+    <div class="small-container">
+
+        <div class="row row-2">
+            <h2>Productos <span>Malva</span>Store <span>&#8516</span></h2>
+            <select>
+                <option>Por defecto</option>
+                <option>Ordenar por precio</option>
+                <option>Ordenar por ventas</option>
+                <option>Ordenar por rating</option>
+            </select>
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+
+                <img src="img/product-1.jpg" alt="">
+
+                <h4>Polera Estampada Roja</h4>
+
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <p>$10.000</p>
+
+            </div>
+
+            <div class="col-4">
+
+                <img src="img/product-2.jpg" alt="">
+
+                <h4>Zapatillas Sport Negras/Blanco</h4>
+
+                <div class="rating">
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+
+                <p>$20.000</p>
+
+            </div>
+
+            <div class="col-4">
+
+                <img src="img/product-3.jpg" alt="">
+
+                <h4>Buzo Style Gris</h4>
+
+                <div class="rating">
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+
+                <p>$15.000</p>
+
+            </div>
+
+            <div class="col-4">
+
+                <img src="img/product-4.jpg" alt="">
+
+                <h4>Polera Parche Azul</h4>
+
+                <div class="rating">
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+
+                <p>$10.000</p>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+
+                <img src="img/product-5.jpg" alt="">
+
+                <h4>Zapatillas Sport Grises</h4>
+
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <p>$20.000</p>
+
+            </div>
+
+            <div class="col-4">
+
+                <img src="img/product-6.jpg" alt="">
+
+                <h4>Polera Estampada Negra</h4>
+
+                <div class="rating">
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <p>$10.000</p>
+
+            </div>
+
+            <div class="col-4">
+
+                <img src="img/product-7.jpg" alt="">
+
+                <h4>Calcetines Sport Colores</h4>
+
+                <div class="rating">
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+
+                <p>$7.500</p>
+
+            </div>
+
+            <div class="col-4">
+
+                <img src="img/product-8.jpg" alt="">
+
+                <h4>Relój Metálico Negro</h4>
+
+                <div class="rating">
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+
+                </div>
+
+                <p>$25.000</p>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-4">
+
+                <img src="img/product-9.jpg" alt="">
+
+                <h4>Relój Cuero Negro</h4>
+
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <p>$25.000</p>
+
+            </div>
+
+            <div class="col-4">
+
+                <img src="img/product-10.jpg" alt="">
+
+                <h4>Zapatillas Sport Negras/Naranjo</h4>
+
+                <div class="rating">
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+
+                <p>$20.000</p>
+
+            </div>
+
+            <div class="col-4">
+
+                <img src="img/product-11.jpg" alt="">
+
+                <h4>Zapatillas Sport Gris/Blanco</h4>
+
+                <div class="rating">
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+
+                </div>
+
+                <p>$20.000</p>
+
+            </div>
+
+            <div class="col-4">
+
+                <img src="img/product-12.jpg" alt="">
+
+                <h4>Buzo Sport Negro</h4>
+
+                <div class="rating">
+
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+
+                </div>
+
+                <p>$15.000</p>
+
+            </div>
+
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594</span>
+        </div>
+
+    </div>
+
+    </div>
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="footer-col-1">
+                    <h3>Descarga nuesta Aplicación</h3>
+                    <p>Soporte para <span>iOS</span> y <span>Android</span></p>
+                    <div class="app-logo">
+                        <img src="img/play-store.png">
+                        <img src="img/app-store.png">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <h2><span>Malva</span>Store <span>&#8516</span></h2>
+                    <p>Trabajamos día a día para que el placer y beneficios del deporte estén disponibles para todos</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Links de utilidad</h3>
+                    <ul>
+                        <li>Cupones</li>
+                        <li>Blog</li>
+                        <li>Politica de devolución</li>
+                        <li>Trabaja con nosotros</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Suíguenos</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020. Lotus-23</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
